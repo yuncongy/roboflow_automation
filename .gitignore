@@ -1,0 +1,62 @@
+# Python bytecode, test/tool caches, and packaging output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.egg-info/
+build/
+dist/
+
+# Local virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Secrets and local configuration (never store real values in examples)
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+secrets.*
+credentials.*
+*.pem
+*.key
+.aws/
+.auth/
+playwright/.auth/
+storage_state*.json
+storage-state*.json
+auth_state*.json
+auth-state*.json
+
+# Generated reports; preserve the directory in Git
+/reports/*
+!/reports/.gitkeep
+allure-results/
+allure-report/
+test-results/
+playwright-report/
+blob-report/
+traces/
+screenshots/
+videos/
+trace*.zip
+*.trace
+*.webm
+*.log
+
+# Workstation/editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo

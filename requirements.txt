@@ -1,0 +1,6 @@
+# Project requires Python 3.11+. These bounds are not a transitive lockfile.
+playwright>=1.55,<2.0
+pytest>=8.4,<10.0
+pytest-playwright>=0.7,<1.0
+pytest-xdist>=3.8,<4.0
+allure-pytest>=2.15,<3.0
